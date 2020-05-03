@@ -1,0 +1,153 @@
+
+
+@media all and (max-width: 970px)
+{
+	#about
+	{
+		text-align: left;
+	}
+
+	header
+	{
+		display: none;
+	}
+
+
+}
+html,body
+{
+
+	font-family: Arial, Helvetica, sans-serif ;
+	width: auto;
+	height: 100%;
+	margin: 0;
+	position: 
+}
+
+*
+{
+	font-family: arial, verdana, arial, sans-serif;
+}
+
+body
+{
+	color:black;
+	background-color: white;
+	display: flex;
+}
+
+p 
+{
+	margin: 0;
+
+}
+
+ul
+{
+	
+	color:black ;
+	padding: 0;
+}
+
+li
+{ 
+	padding-top: 1em;
+
+}
+
+h1
+{
+	font-size: 3em
+}
+
+h2
+{
+	margin: 0;
+	text-decoration: underline;
+
+}
+
+a
+{
+	text-decoration:none;
+	color: black;
+}
+
+/* HEADER */
+
+header
+{
+	background-color: #009688;
+	width: 350px;
+}
+
+img
+{
+	size: 35px 35px 35px;
+}
+
+#loisirs
+{
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#contact
+{
+	margin: 10px;
+	font-size: 1em;
+}
+
+#title_header
+{
+	color: white;
+	padding: 1em;
+	background-color: #004D40;
+}
+
+/* CONTENU */
+
+#all
+{
+	flex: 1;
+	margin-left: 10px;
+}
+
+section
+{
+	margin-top: 130px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+article 
+{
+	border: 1px solid white;
+	margin-bottom: 8px;
+	padding: 8px;
+}
+
+.Lorene
+{
+	color:#009688;  
+	font-weight: bold;
+}
+.abouttitle
+{
+	display: block;
+	margin: 2px;
+	padding-top: 2em;
+	
+}
+
+.abouttitle:nth-child(1)
+{
+	padding-top: 1em;
+}
+
+.Poste
+{
+	font-weight: bold;
+}
